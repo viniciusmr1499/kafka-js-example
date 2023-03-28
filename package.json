@@ -1,0 +1,13 @@
+{
+  "name": "pocs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "producer": "node src/producer.js",
+    "consumer": "node src/consumer.js"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
